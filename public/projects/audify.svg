@@ -1,0 +1,21 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#070707"/>
+  <rect x="74" y="74" width="1452" height="752" rx="36" fill="#0F0F0F" stroke="#232323" stroke-width="2"/>
+  <circle cx="1310" cy="700" r="250" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="220" cy="190" r="160" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="160" y="150" width="560" height="580" rx="32" fill="#141414" stroke="#2E2E2E"/>
+  <circle cx="280" cy="292" r="46" fill="#F2F2F2"/>
+  <circle cx="418" cy="384" r="74" fill="#BEBEBE"/>
+  <circle cx="322" cy="520" r="56" fill="#D7D7D7"/>
+  <circle cx="520" cy="270" r="52" fill="#B0B0B0"/>
+  <circle cx="560" cy="498" r="86" fill="#F5F5F5"/>
+  <line x1="280" y1="292" x2="418" y2="384" stroke="#6A6A6A" stroke-width="6"/>
+  <line x1="418" y1="384" x2="560" y2="498" stroke="#6A6A6A" stroke-width="6"/>
+  <line x1="322" y1="520" x2="560" y2="498" stroke="#6A6A6A" stroke-width="6"/>
+  <line x1="280" y1="292" x2="520" y2="270" stroke="#6A6A6A" stroke-width="6"/>
+  <text x="800" y="245" fill="#F5F5F5" font-size="52" font-weight="700" font-family="Arial, Helvetica, sans-serif">Audify</text>
+  <text x="800" y="302" fill="#9D9D9D" font-size="28" font-family="Arial, Helvetica, sans-serif">Content-aware music recommendation with clustering and similarity search</text>
+  <rect x="800" y="388" width="520" height="176" rx="28" fill="#131313" stroke="#2D2D2D"/>
+  <text x="850" y="462" fill="#ECECEC" font-size="30" font-family="Arial, Helvetica, sans-serif">10,000+ Spotify tracks</text>
+  <text x="850" y="514" fill="#9D9D9D" font-size="24" font-family="Arial, Helvetica, sans-serif">K-Means clustering + cosine similarity ranking</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#070707"/>
+  <rect x="74" y="74" width="1452" height="752" rx="36" fill="#0F0F0F" stroke="#232323" stroke-width="2"/>
+  <circle cx="1320" cy="250" r="180" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="220" cy="690" r="220" fill="#FFFFFF" fill-opacity="0.14"/>
+  <path d="M160 612C278 472 406 410 536 442C672 476 764 450 914 312C1028 208 1160 192 1328 236L1328 708L160 708L160 612Z" fill="#171717"/>
+  <polyline points="214,574 344,516 466,534 598,464 714,498 846,422 974,380 1102,298 1236,320" stroke="#F4F4F4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="170" y="244" fill="#F5F5F5" font-size="50" font-weight="700" font-family="Arial, Helvetica, sans-serif">F1 Strategy Prediction Engine</text>
+  <text x="170" y="300" fill="#9D9D9D" font-size="28" font-family="Arial, Helvetica, sans-serif">Telemetry ingestion, feature engineering, and chained race strategy models</text>
+  <rect x="170" y="360" width="520" height="170" rx="28" fill="#121212" stroke="#2C2C2C"/>
+  <text x="220" y="432" fill="#ECECEC" font-size="30" font-family="Arial, Helvetica, sans-serif">200k+ laps across 4 seasons</text>
+  <text x="220" y="484" fill="#9D9D9D" font-size="24" font-family="Arial, Helvetica, sans-serif">XGBoost + Random Forest + season-blocked validation</text>
+</svg>
