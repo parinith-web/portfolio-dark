@@ -1,67 +1,150 @@
-# Parinith Reddy Portfolio
+# Parinith Reddy — Portfolio
 
-Personal portfolio site for Parinith Reddy, focused on backend engineering, machine learning, and full-stack projects.
+🔗 **Live Site:** [parinithmavurapu.vercel.app](https://parinithmavurapu.vercel.app)
 
-## Overview
+A cinematic, dark-mode portfolio for an AI/ML engineer, built to showcase projects, skills, achievements, and research with polished motion and a modern editorial feel.
 
-This site showcases:
-
-- Featured projects with live links and GitHub repositories
-- Technical skills across backend, ML, and web development
-- Experience, achievements, and research interests
-- Contact and social profiles including LeetCode, GitHub, and LinkedIn
+---
 
 ## Tech Stack
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui
-- Framer Motion
+| Layer | Technology |
+|---|---|
+| Framework | React + TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| UI Components | shadcn/ui + Radix UI |
+| Routing | React Router |
+| Icons | Lucide React |
+| Deployment | Vercel / Netlify / GitHub Pages |
 
-## Local Development
+---
 
-Install dependencies:
+## Design
 
-```sh
-npm install
-```
+- Dark immersive visual system with high-contrast typography
+- Animated section reveals and smooth page transitions
+- Responsive portfolio grid with category filtering
+- Project detail pages with image lightbox support
+- Dedicated sections for skills, experience, achievements, and contact
+- SEO-focused metadata components
+- Accessible UI primitives and keyboard-friendly interactions
 
-Start the dev server:
-
-```sh
-npm run dev
-```
-
-Build for production:
-
-```sh
-npm run build
-```
-
-Preview the production build:
-
-```sh
-npm run preview
-```
+---
 
 ## Project Structure
 
-- `src/components` UI sections, layout, forms, and shared components
-- `src/data` profile and project content
-- `src/pages` top-level routed pages
-- `public` static assets and project visuals
+```bash
+portfolio-dark/
+├── public/                     # Static assets, icons, project visuals
+├── src/
+│   ├── components/
+│   │   ├── forms/              # Contact form
+│   │   ├── layout/             # Shared layout, header, footer
+│   │   ├── portfolio/          # Portfolio grid, cards, lightbox, filters
+│   │   ├── sections/           # Hero, About, Skills, Projects, Contact, etc.
+│   │   ├── seo/                # SEO metadata helpers
+│   │   └── ui/                 # Reusable UI components
+│   ├── data/                   # Portfolio/project content
+│   ├── hooks/                  # Custom React hooks
+│   ├── lib/                    # Utility helpers
+│   ├── pages/                  # Route-level pages
+│   ├── types/                  # Shared TypeScript types
+│   ├── App.tsx                 # App shell
+│   ├── main.tsx                # Entry point
+│   └── index.css               # Global styles
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
+```
 
-## Content Updates
+---
 
-Most portfolio content is managed through the data files and section components:
+## Getting Started
 
-- `src/data/photographer.ts`
-- `src/data/projects.ts`
-- `src/components/sections`
+### 1. Install dependencies
 
-## Notes
+```bash
+npm install
+```
 
-- This project was originally scaffolded from a starter template and has since been customized into a personal portfolio.
-- The `tailwind-plus` folder is kept as design/reference material for future UI improvements.
+### 2. Run locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+### 3. Build for production
+
+```bash
+npm run build
+```
+
+### 4. Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Customization
+
+| File / Folder | What to change |
+|---|---|
+| `src/components/sections/Hero.tsx` | Name, headline, intro copy, CTA buttons |
+| `src/components/sections/About.tsx` | Bio, story, personal summary |
+| `src/components/sections/Skills.tsx` | Skill groups, tools, technologies |
+| `src/components/sections/Projects.tsx` | Featured project list and highlights |
+| `src/data/projects.ts` | Project content, stacks, links, images, categories |
+| `src/components/sections/Experience.tsx` | Work experience, roles, timeline |
+| `src/components/sections/Achievements.tsx` | Awards, metrics, milestones |
+| `src/components/sections/Contact.tsx` | Email, LinkedIn, GitHub, contact details |
+| `src/components/seo/SEOHead.tsx` | Title, description, social preview metadata |
+| `src/index.css` | Theme variables, spacing, typography, visual tone |
+
+---
+
+## Features
+
+- Responsive single-page portfolio experience
+- Project filtering by category
+- Lightbox-enabled project media
+- Individual project detail views
+- Smooth animated transitions
+- Reusable component-driven structure
+- SEO-ready page metadata
+- Clean TypeScript-based architecture
+
+---
+
+## Deployment
+
+Deployed on **Vercel** at [parinithmavurapu.vercel.app](https://parinithmavurapu.vercel.app).
+
+### Steps to deploy
+
+1. Push the project to GitHub
+2. Go to [vercel.com](https://vercel.com) and import the repository
+3. Deploy with default Vite settings — no extra configuration needed
+4. Set your custom domain to `parinithmavurapu.vercel.app` in the Vercel project settings
+
+---
+
+## Performance Notes
+
+- Vite provides fast local development and optimized production bundles
+- Route-level and section-level component organization keeps the app maintainable
+- Reusable UI primitives reduce duplication and improve consistency
+- Static assets are served from `public/` for straightforward deployment
+- Tailwind utility styling keeps the UI flexible and scalable
+
+---
+
+## License
+
+MIT — free to use as a personal portfolio template.
